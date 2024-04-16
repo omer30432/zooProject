@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal Details</title>
+    <link rel="stylesheet" href="animal.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <script src="./main.js" defer></script>
+    <script src="./navbar.js" defer></script>
+    <script src="./animal.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <span id="guest-info"></span>
+      <button id="clean-button">Clean</button>
+      <select id="guest-dropdown"></select>
+    </nav>
+    <div class="animal-details-container">
+      <div id="image" class="animal-image"></div>
+      <div class="animal-info">
+        <h1 id="name"></h1>
+        <p id="weight"></p>
+        <p id="height"></p>
+        <p id="color"></p>
+        <p id="habitat"></p>
+        <p id="isPredator"></p>
+        <button id="feed-animal" class="feed-btn">Feed me</button>
+      </div>
+    </div>
+    <div class="related-animals-container">
+      <h2>Related Animals</h2>
+      <div id="related-animals" class="related-animals"></div>
+    </div>
+    <button id="move-to-zoo" onclick="window.location.href='zoo.html';">
+      Move to Zoo
+    </button>
+    <button
+      id="move-to-dashboard"
+      onclick="window.location.href='dashboard.html';"
+    >
+      Move to Dashboard
+    </button>
+  </body>
+</html>

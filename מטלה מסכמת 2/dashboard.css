@@ -1,0 +1,84 @@
+body {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  background-image: url("imgs/dashboard-background.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+div {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.feed-btn {
+  background-color: #32cd32;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.feed-btn:hover {
+  background-color: #228b22;
+}
+
+.related-animal-button {
+  background-color: #f4a460;
+  border: none;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.related-animal-button:hover {
+  background-color: #deb887;
+}
+
+#go-back-to-zoo {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+#go-back-to-zoo:hover {
+  background-color: #388e3c;
+}

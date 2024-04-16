@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <h1>Welcome to the Zoo</h1>
+    <form id="create-visitor-form">
+      <label for="visitor-name">Name:</label>
+      <input type="text" id="visitor-name" name="visitor-name" required />
+      <button type="submit">Create New Visitor</button>
+      <button
+        id="go-to-login"
+        type="button"
+        style="margin-top: 10px"
+        onclick="window.location.href='/login.html';"
+      >
+        Go to Login
+      </button>
+    </form>
+    <script src="./signup.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zoo</title>
+    <link rel="stylesheet" href="zoo.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <script src="./main.js" defer></script>
+    <script src="./navbar.js" defer></script>
+    <script src="./zoo.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <span id="guest-info"></span>
+      <button id="clean-button">Clean</button>
+      <select id="guest-dropdown"></select>
+    </nav>
+
+    <div id="filters">
+      <input
+        type="text"
+        id="search-animal"
+        placeholder="Search animals by name..."
+      />
+      <select id="color-filter">
+        <option value="">Color</option>
+      </select>
+      <select id="habitat-filter">
+        <option value="">Habitat</option>
+        <option value="land">Land</option>
+        <option value="sea">Sea</option>
+      </select>
+      <input type="number" id="weight-filter" placeholder="Minimum weight" />
+      <input type="number" id="height-filter" placeholder="Minimum height" />
+      <button id="apply-filters">Apply Filters</button>
+    </div>
+    <div id="animal-cards"></div>
+  </body>
+</html>
